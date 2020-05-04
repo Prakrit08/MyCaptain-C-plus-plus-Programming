@@ -14,7 +14,7 @@ int main()
 			cout<<"You are not eligible!!";
 		else
 		{
-			cout<<"Please enter your age properly!!";
+			cout<<"Please enter your age properly\n!!";
 			f=1;
 		}
 	}while(f==1);
