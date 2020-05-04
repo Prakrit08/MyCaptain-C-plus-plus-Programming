@@ -1,10 +1,11 @@
 #include <iostream>
 using namespace std;
+int a,f;
 int main()
 {
 	do
 	{
-		int a,f=0;
+		f=0;
 		cout<<"Enter your age : "; 
 		cin>>a;
 		if(a>=18)
@@ -18,4 +19,3 @@ int main()
 		}
 	}while(f==1);
 }
-	
